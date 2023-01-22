@@ -42,7 +42,7 @@ function App() {
         </p>
         <Input type="text" name="age" placeholder="Age" {...register("age")} />
         <p style={{ color: "red", width: "300px" }}>
-          {errors.age && "Age should be a valid"}
+          {errors.age && "Age should be  valid"}
         </p>
         <Input
           type="text"
